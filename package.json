@@ -20,7 +20,8 @@
     "dustjs-linkedin": "~2.0.3",
     "dustjs-helpers": "~1.1.1",
     "makara": "~0.3.0",
-    "uuid": "~1.4.1"
+    "uuid": "~1.4.1",
+    "date-utils": "~1.2.14"
   },
   "devDependencies": {
     "mocha": "~1.10.0",
