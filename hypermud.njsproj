@@ -24,9 +24,9 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
-    <Compile Include="server.js" />
     <Content Include="bower.json" />
     <Content Include="config\app-development.json" />
+    <Content Include="IISNode.yml" />
     <Content Include="package.json" />
     <Content Include="README.md" />
     <Compile Include="Gruntfile.js" />
@@ -37,6 +37,8 @@
     <Compile Include="models\index.js" />
     <Compile Include="public\js\app.js" />
     <Compile Include="public\js\config.js" />
+    <Content Include="Web.cloud.config" />
+    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="config" />
