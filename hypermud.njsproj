@@ -24,6 +24,7 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
+    <Compile Include="server.js" />
     <Content Include="bower.json" />
     <Content Include="config\app-development.json" />
     <Content Include="package.json" />
