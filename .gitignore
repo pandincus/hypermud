@@ -1,6 +1,7 @@
 .DS_Store
 .idea/
 .build/
+obj/
 node_modules/
 *.iml
 *.suo
