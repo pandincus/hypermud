@@ -15,8 +15,7 @@
     <NodeExePath />
     <NodeExeArguments>index.js</NodeExeArguments>
     <ScriptArguments />
-    <NodejsPort>
-    </NodejsPort>
+    <NodejsPort>8000</NodejsPort>
     <StartWebBrowser>True</StartWebBrowser>
     <LaunchUrl>
     </LaunchUrl>
@@ -27,7 +26,11 @@
     <Content Include="bower.json" />
     <Content Include="config\app-development.json" />
     <Content Include="IISNode.yml" />
+    <Content Include="locales\US\en\index.properties" />
     <Content Include="package.json" />
+    <Content Include="public\css\app.less" />
+    <Content Include="public\templates\index.dust" />
+    <Content Include="public\templates\layouts\master.dust" />
     <Content Include="README.md" />
     <Compile Include="Gruntfile.js" />
     <Compile Include="index.js" />
@@ -44,9 +47,17 @@
   <ItemGroup>
     <Folder Include="config" />
     <Folder Include="controllers" />
+    <Folder Include="lib\" />
+    <Folder Include="locales\" />
+    <Folder Include="locales\US\" />
+    <Folder Include="locales\US\en\" />
     <Folder Include="models" />
     <Folder Include="public\" />
+    <Folder Include="public\css\" />
     <Folder Include="public\js" />
+    <Folder Include="public\templates\" />
+    <Folder Include="public\templates\layouts\" />
+    <Folder Include="test\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
