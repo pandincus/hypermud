@@ -35,6 +35,7 @@
     <Content Include="config\middleware.json" />
     <Compile Include="controllers\index.js" />
     <Compile Include="models\index.js" />
+    <Compile Include="models\location.js" />
     <Compile Include="public\js\app.js" />
     <Compile Include="public\js\config.js" />
     <Content Include="Web.cloud.config" />
