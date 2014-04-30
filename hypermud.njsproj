@@ -32,13 +32,17 @@
     <Content Include="public\templates\index.dust" />
     <Content Include="public\templates\layouts\master.dust" />
     <Content Include="README.md" />
+    <Compile Include="controllers\location.js" />
     <Compile Include="Gruntfile.js" />
     <Compile Include="index.js" />
     <Content Include="config\app.json" />
     <Content Include="config\middleware.json" />
     <Compile Include="controllers\index.js" />
+    <Compile Include="models\altitude.js" />
+    <Compile Include="models\character.js" />
     <Compile Include="models\index.js" />
     <Compile Include="models\location.js" />
+    <Compile Include="models\world.js" />
     <Compile Include="public\js\app.js" />
     <Compile Include="public\js\config.js" />
     <Content Include="Web.cloud.config" />
